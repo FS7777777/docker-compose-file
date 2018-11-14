@@ -7,6 +7,6 @@ docker-compose up -d
 #运行状态
 docker-compose ps
 #其它基本操作
-docker-compose stop mynginx
-docker-compose rm mynginx
+docker-compose stop nginx
+docker-compose rm nginx
 ```
