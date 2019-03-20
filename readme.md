@@ -31,3 +31,6 @@ docker-compose up -d
 docker-compose logs -f
 ```
 
+
+# jenkins-sonarqube 具体没试过
+https://github.com/lizibin/docker-jenkins-sonarqube
