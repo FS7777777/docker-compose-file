@@ -3,6 +3,7 @@ services:
   rabbit1:
     image: rabbitmq:3-management
     hostname: rabbit1
+    restart: always
     environment:
       RABBITMQ_ERLANG_COOKIE: "secret string"
       RABBITMQ_NODENAME: rabbit1
