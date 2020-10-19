@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  redis:
+    image: remixproject/remix-ide:latest
+    container_name: remix-ide
+    restart: always
+    ports:
+      - 8080:80
