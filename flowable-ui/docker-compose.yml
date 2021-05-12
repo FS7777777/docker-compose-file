@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  influxdb:
+    image: flowable/flowable-ui:6.6.0
+    container_name: flowable-ui
+    ports:
+      - "7967:8080"
+    restart: always
