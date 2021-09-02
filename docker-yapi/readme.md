@@ -2,6 +2,10 @@ YApi Docker镜像
 ==============
 
 
+## default admin
+admin@admin.com/ymfe.org 
+
+
 YApi:  https://github.com/YMFE/yapi/releases
 
 制作本地的yapi docker镜像, docker-compose一键维护和部署.
